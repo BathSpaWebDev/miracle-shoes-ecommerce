@@ -18,6 +18,7 @@ export const Products = () => {
         <div key={shoe.id}>
           <div className="product_card">
             <img src={shoe.urls.thumb} alt="shoe pic" />
+            <a href={shoe.user.portfolio_url}>{shoe.user.name}</a>
             <h2>{shoe.productName}</h2>
             <p>{shoe.alt_description}</p>
             <h3>Price £100</h3>
@@ -30,7 +31,6 @@ export const Products = () => {
               View
             </button>
           </div>
-          <a href={shoe.user.portfolio_url}>{shoe.user.name}</a>
         </div>
       ))}
     </div>
