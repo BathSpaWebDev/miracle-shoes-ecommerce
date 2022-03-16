@@ -8,24 +8,41 @@ html{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    gap: 2rem;
+    padding: 10px ;
 }
 .product_card{ 
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-rows: 3fr;
+    grid-template-columns: 3fr;
     align-items: center;
     justify-content: space-evenly;
-    border: 2px solid black;
+    
     margin: 10px;
     padding: 20px;
     max-width:min-content;
     height: 400px;
     border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-.product_card:hover {
+
+.product_card > button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #82aba100;
+    cursor: pointer;
+}
+.product_card > button:hover{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-.product_card > img {
-    border-radius: 25px;
+.image_container > img {
+    border-radius: 15px;
+}
+.image_container>a {
+    font-size:.6rem;
+    align-self: flex-start;
+    text-decoration: none;
 }
