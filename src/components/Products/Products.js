@@ -4,7 +4,7 @@ import { useState } from "react";
 import { ProductPage } from "../ProductPage/ProductPage";
 
 export const Products = () => {
-  const [currentShoe, setCurrentShoe] = useState();
+  const [currentShoe, setCurrentShoe] = useState(ShoeData.results[0]);
   const [className, setClassName] = useState("product_popup_off");
 
   return (
