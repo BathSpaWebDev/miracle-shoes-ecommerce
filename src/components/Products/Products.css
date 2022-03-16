@@ -17,15 +17,4 @@
     height: 400px;
 }
 
-.product_popup_off{
-    display: none;
-    height: 20vh;
-    width: 20vw;
-   }
-
-.product_popup_on{
- display: show;
- height: 20vh;
- width: 20vw;
-}
 
