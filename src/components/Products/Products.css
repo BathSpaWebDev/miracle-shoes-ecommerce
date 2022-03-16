@@ -1,0 +1,31 @@
+.products_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.product_card{ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    margin: 10px;
+    max-width:min-content;
+    height: 400px;
+}
+
+.product_popup_off{
+    display: none;
+    height: 20vh;
+    width: 20vw;
+   }
+
+.product_popup_on{
+ display: show;
+ height: 20vh;
+ width: 20vw;
+}
+
