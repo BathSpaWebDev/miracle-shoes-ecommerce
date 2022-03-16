@@ -7,10 +7,9 @@
 .product_popup_on{
     display:flex;
     flex-basis: row wrap;
-    position:sticky;
-    top: 30vh;
-    bottom: 30vh;
-    left: 20vh;
+    position:absolute;
+    top: 30%;
+    
     color: whitesmoke;
     background-color:#000000;
     border: 1px solid black;
