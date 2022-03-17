@@ -1,7 +1,12 @@
 import "./ProductPage.css";
 import { CgCloseR } from "react-icons/cg";
 
-export const ProductPage = ({ currentShoe, className, setClassName }) => {
+export const ProductPage = ({
+  currentShoe,
+  className,
+  setClassName,
+  setIsVisible,
+}) => {
   return (
     <div className={className}>
       <div className="product_image_container">
@@ -15,7 +20,10 @@ export const ProductPage = ({ currentShoe, className, setClassName }) => {
 
       <CgCloseR
         className="x_close"
-        onClick={() => setClassName("product_popup_off")}
+        onClick={() => {
+          setClassName("product_popup_off");
+          setIsVisible("visible");
+        }}
       />
 
       <div className="product_details_container">

@@ -8,12 +8,12 @@
     display:flex;
     flex-basis: row wrap;
     position:absolute;
-    top: 30%;
+    top: 20%;
     color: whitesmoke;
     background-color:#000000;
     border: 1px solid black;
     border-radius: 25px;
-    margin: 30vh;
+    
 }
 
 .product_image_container{

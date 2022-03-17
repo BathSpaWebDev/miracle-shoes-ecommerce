@@ -7,6 +7,7 @@ import { GrFormView } from "react-icons/gr";
 export const Products = () => {
   const [currentShoe, setCurrentShoe] = useState(ShoeData.results[0]);
   const [className, setClassName] = useState("product_popup_off");
+  const [isVisible, setIsVisible] = useState("visible");
 
   return (
     <div className="products_container">
@@ -14,9 +15,10 @@ export const Products = () => {
         currentShoe={currentShoe}
         className={className}
         setClassName={setClassName}
+        setIsVisible={setIsVisible}
       />
       {ShoeData.results.map((shoe) => (
-        <div key={shoe.id}>
+        <div key={shoe.id} className={isVisible}>
           <div className="product_card">
             <div className="image_container">
               <img src={shoe.urls.thumb} alt="shoe pic" />
@@ -31,6 +33,7 @@ export const Products = () => {
               onClick={() => {
                 setCurrentShoe(shoe);
                 setClassName("product_popup_on");
+                setIsVisible("hidden");
               }}
             >
               View
