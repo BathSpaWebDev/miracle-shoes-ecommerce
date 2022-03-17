@@ -21,11 +21,14 @@ export const ProductPage = ({ currentShoe, className, setClassName }) => {
       <div className="product_details_container">
         <h1>{currentShoe.productName}</h1>
         <p className="single_product_description">{currentShoe.description}</p>
-        <p className="prduct_in_stock">
-          Only {currentShoe.stock} left in stock
-        </p>
-        <p>Price: £{currentShoe.price}</p>
-        <button>Buy</button>
+        <div className="price_stock_container">
+          <p className="single_product_price">Price: £{currentShoe.price}</p>
+          <p className="prduct_in_stock">
+            Only {currentShoe.stock} left in stock
+          </p>
+        </div>
+
+        <button>Buy Now!</button>
       </div>
     </div>
   );
