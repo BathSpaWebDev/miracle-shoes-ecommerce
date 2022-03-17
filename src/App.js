@@ -12,7 +12,7 @@ function App() {
         <Navbar />
       </header>
       <main>
-        <SearchBar />
+        {/* <SearchBar /> */}
         <Products />
       </main>
     </div>
