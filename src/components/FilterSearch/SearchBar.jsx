@@ -12,20 +12,14 @@ export const SearchBar = () => {
             placeholder="Search here..."
           />
         </div>
-        <div className="navBarItem">
+        <div className="searchBarItem">
           <FilterType
           />
         </div>
-        <div className="navBarItem">
+        <div className="searchBarItem">
           <select>
             <option value="asc">Price: low to high</option>
             <option value="des">Price: high to low</option>
-          </select>
-        </div>
-        <div className="navBarItem">
-          <select>
-            <option value="asc">Year: low to high</option>
-            <option value="des">Year: high to low</option>
           </select>
         </div>
       </div>

@@ -1,10 +1,10 @@
 export const FilterType = ({ onChange, selectedGenre }) => {
     const allGenres = [
-      "sneaker",
-      "shoe",
+      "sneakers",
+      "trainers",
       "shoes",
       "Boots",
-      "trainers",
+      "heels"
     ];
     return (
       <select name="G" id="genre" onChange={(e) => onChange(e.target.value)}>
