@@ -1,4 +1,19 @@
 
+# Miracle Shoe
+A front facing e-comerce app built using React, where you can filter Shoes, purchase and place orders
+
+## Undertaking
+
+- Renders data from Json
+- Filters Data
+- Search Data
+
+## Team (Alphabetical)
+- [Andrei Butuc](https://github.com/andreibtc84)
+- [Nazila ]()
+- [Naz H](https://github.com/nazhudha)
+- [Owen ]()
+
 
 # Getting Started with Create React App
 
