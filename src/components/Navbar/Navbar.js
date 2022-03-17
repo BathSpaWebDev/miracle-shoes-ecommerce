@@ -1,10 +1,4 @@
 import "./Navbar.css";
-
-export const Navbar = () => {
-  return <div>Navbar</div>;
-};
-
-import "./Navbar.css";
 import { BsCart2 } from 'react-icons/bs';
 import { AiOutlineHome } from 'react-icons/ai';
 import { GiRunningShoe } from 'react-icons/gi';
