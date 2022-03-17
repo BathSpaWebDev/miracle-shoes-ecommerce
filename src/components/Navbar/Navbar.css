@@ -1,0 +1,37 @@
+.top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+  }
+  
+  .flex-container {
+    background-color: #80CED7;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5em 0;
+   
+  }
+  
+  .item {
+    
+  }
+  
+  .item:first-of-type {
+    
+    width: 50%;
+    margin-right: 20%;
+  }
+  
+  .item:first-of-type a {
+    text-decoration: none;
+    }
+  
+  .flex-container a{
+      color:#256EFF;
+    text-decoration: none;
+      font-size: 1.7rem;
+      font-weight: bold;
+      font-family: sans-serif;
+  }
