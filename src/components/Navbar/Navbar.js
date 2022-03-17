@@ -21,6 +21,12 @@ export const Navbar = () => {
           <a href="#"><BsCart2 /> Shop</a>
         </div>
 
+        <div className="item">
+          <input
+            type="search"
+            placeholder="Search here..."
+          />
+        </div>
       </nav>
     </div>
 
