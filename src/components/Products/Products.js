@@ -8,7 +8,7 @@ export const Products = () => {
   const [currentShoe, setCurrentShoe] = useState(ShoeData.results[0]);
   const [className, setClassName] = useState("product_popup_off");
   const [isVisible, setIsVisible] = useState("visible");
-  // Test commentgit
+
   return (
     <div className="products_container">
       <h1>Shop</h1>
