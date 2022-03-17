@@ -21,10 +21,10 @@ export const Navbar = () => {
           <a href="#"><BsCart2 /> Shop</a>
         </div>
 
-        <div className="item">
+        <div class="item">
           <input
             type="search"
-            placeholder="Search here..."
+            placeholder="Type shoe name"
           />
         </div>
       </nav>

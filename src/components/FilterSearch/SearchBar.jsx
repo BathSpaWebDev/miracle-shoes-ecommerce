@@ -6,7 +6,7 @@ export const SearchBar = () => {
   return (
     <section>
       <div className="searchBar">
-        <div className="searchBarItem">
+        {/* <div className="searchBarItem">
           <input
             type="search"
             placeholder="Search here..."
@@ -15,9 +15,10 @@ export const SearchBar = () => {
         <div className="searchBarItem">
           <FilterType
           />
-        </div>
+        </div> */}
         <div className="searchBarItem">
-          <select>
+          <span>Sort by </span>
+          <select class="sorting">
             <option value="asc">Price: low to high</option>
             <option value="des">Price: high to low</option>
           </select>

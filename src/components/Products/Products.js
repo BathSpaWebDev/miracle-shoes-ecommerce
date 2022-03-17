@@ -12,7 +12,10 @@ export const Products = () => {
 //Test Owen
 //Test Naz
   return (
+    <div> 
+      
     <div className="products_container">
+      
       <ProductPage
         currentShoe={currentShoe}
         className={className}
@@ -43,6 +46,7 @@ export const Products = () => {
           </div>
         </div>
       ))}
+    </div>
     </div>
   );
 };

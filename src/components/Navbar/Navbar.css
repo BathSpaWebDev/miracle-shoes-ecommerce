@@ -6,23 +6,32 @@
 }
 
 .top {
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
     margin: auto;
     width: 100%;
+    border-bottom: 3px solid #256EFF;
+    box-shadow: 1px 1px 15px grey;
   }
   
   .flex-container {
     background-color: #80CED7;
     display: flex;
     justify-content: space-evenly;
-    padding: 1.5em 0;
+    padding: 1.5em 0 1em 0;
    
   }
   
-  .item {
-    
+  .item input{
+      color: #256EFF;
+    background-color: white;
+border: 2px solid #256EFF;
+border-radius: 100px;
+    padding: 0.7em;
+    font-size: 1rem;
+    font-weight: bold;
   }
   
   .item:first-of-type {
@@ -41,4 +50,10 @@
       font-size: 1.7rem;
       font-weight: bold;
       font-family: sans-serif;
+      text-shadow: 1px 1px 5px grey;
+  }
+
+  .flex-container a:hover{
+      color: white;
+      text-shadow: 1px 1px 5px grey;
   }
