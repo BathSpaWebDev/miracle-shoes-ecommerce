@@ -9,12 +9,18 @@
     flex-basis: row wrap;
     position:absolute;
     top: 30%;
-    
     color: whitesmoke;
     background-color:#000000;
     border: 1px solid black;
     border-radius: 25px;
     margin: 30px;
+}
+.product_image_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 
 .product_image {
@@ -26,9 +32,15 @@
     padding: 15px;
     margin-top: 30px;
 }
+.product_image_container>a{
+    font-size:.6rem;
+    text-decoration: none;
+}
 .x_close {
-    width: 50px;
+    width: 30px;
+    height: 30px;
     position: absolute;
     right: 10px;
     top:10px;
+    
 }

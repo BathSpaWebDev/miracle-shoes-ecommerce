@@ -2,6 +2,7 @@ import "./Products.css";
 import ShoeData from "../../shoes.json";
 import { useState } from "react";
 import { ProductPage } from "../ProductPage/ProductPage";
+import { GrFormView } from "react-icons/gr";
 
 export const Products = () => {
   const [currentShoe, setCurrentShoe] = useState(ShoeData.results[0]);
@@ -22,9 +23,9 @@ export const Products = () => {
               <a href={shoe.user.portfolio_url}>{shoe.user.name}</a>
             </div>
             <div>
-              <h2>{shoe.productName}</h2>
-              <p>{shoe.alt_description}</p>
-              <h3>Price £100</h3>
+              <h2 className="product_title">{shoe.productName}</h2>
+              <p className="product_description">{shoe.alt_description}</p>
+              <h3>Price £{shoe.price}</h3>
             </div>
             <button
               onClick={() => {
