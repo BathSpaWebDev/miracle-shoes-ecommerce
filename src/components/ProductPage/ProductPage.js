@@ -28,7 +28,11 @@ export const ProductPage = ({
 
       <div className="product_details_container">
         <h1>{currentShoe.productName}</h1>
-        <p className="single_product_description">{currentShoe.description}</p>
+        <p className="single_product_description">
+          {!currentShoe.description
+            ? currentShoe.alt_description
+            : currentShoe.description}
+        </p>
         <div className="price_stock_container">
           <p className="single_product_price">Price: £{currentShoe.price}</p>
           <p className="prduct_in_stock">
