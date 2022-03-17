@@ -11,6 +11,7 @@ export const Products = () => {
   // Test commentgit
   return (
     <div className="products_container">
+      <h1>Shop</h1>
       <ProductPage
         currentShoe={currentShoe}
         className={className}
