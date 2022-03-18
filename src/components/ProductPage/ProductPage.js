@@ -36,7 +36,9 @@ export const ProductPage = ({
         <div className="price_stock_container">
           <p className="single_product_price">Price: £{currentShoe.price}</p>
           <p className="prduct_in_stock">
-            Only {currentShoe.stock} left in stock
+            {currentShoe.stock < 5
+              ? "Low Stock!"
+              : `Only ${currentShoe.stock} left in stock`}
           </p>
         </div>
 
