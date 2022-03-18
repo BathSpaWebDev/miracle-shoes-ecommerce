@@ -8,7 +8,7 @@ export const ProductPage = ({
   setIsVisible,
 }) => {
   return (
-    <div className={className}>
+    <dialog className={className}>
       <div className="product_image_container">
         <img
           className="product_image"
@@ -44,6 +44,6 @@ export const ProductPage = ({
 
         <button>Buy Now!</button>
       </div>
-    </div>
+    </dialog>
   );
 };
