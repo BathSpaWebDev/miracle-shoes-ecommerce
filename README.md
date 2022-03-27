@@ -1,4 +1,23 @@
 
+# Miracle Shoe
+### Team Project Build (Bath Spa)
+A front facing e-commerce shoe app built using React, where you can view product, filter, purchase and place orders.
+
+
+## Undertaking
+- Initial Wire Frame Build [view link](https://jamboard.google.com/d/11vU3Zf6ui-58_oKHhe7bkJp5hA6--LwshrykxNRS3lU/edit?usp=sharing)
+- Nav Bar
+- Main Page, Renders Shoe data from Json file
+- Individual Product page, expands 'on view'
+- Low stock display, changes depending on stock levels
+- Filter & Search Data
+
+## Team (Alphabetical)
+- [Andrei Butuc](https://github.com/andreibtc84)
+- [Nazila ]()
+- [Naz H](https://github.com/nazhudha)
+- [Owen ](https://github.com/owenbrannagan)
+
 
 # Getting Started with Create React App
 

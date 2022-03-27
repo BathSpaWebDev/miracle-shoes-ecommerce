@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Roboto:wght@100;300;400;700&display=swap');
+
+* {
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+}
+
+.top {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  border-bottom: 3px solid #256EFF;
+  box-shadow: 1px 1px 15px grey;
+}
+  
+.flex-container {
+  background-color: #80ced7;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.5em 0 1em 0;
+  
+}
+  
+.item input {
+  color: #256EFF;
+  background-color: white;
+  border: 2px solid #256EFF;
+  border-radius: 100px;
+  padding: 0.7em;
+  font-size: 1rem;
+  font-weight: bold;
+  
+}
+  
+.item:first-of-type {
+  width: 40%;
+  margin-right: 10%;
+}
+
+.item:first-of-type a {
+  text-decoration: none;
+}
+
+.flex-container a {
+  color:#256EFF;
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-shadow: 1px 1px 5px grey;
+}
+
+.flex-container a:hover {
+  color: white;
+  text-shadow: 1px 1px 5px grey;
+}

@@ -6,13 +6,17 @@
 
 .product_popup_on{
     display:flex;
-    flex-basis: row wrap;
+    flex-direction: row;
     position:absolute;
     top: 20%;
     color: whitesmoke;
     background-color:#000000;
     border: 1px solid black;
     border-radius: 25px;
+    max-width: 60%;
+}
+.product_popup_on::backdrop{
+    background:#000000;
 }
 
 .product_image_container{
@@ -48,7 +52,7 @@
 }
 .prduct_in_stock{
     color: orange;
-    font-size: x-small;
+    font-size: small;
 }
 .single_product_price {
     font-size: 1.2rem;
@@ -78,4 +82,13 @@
     position: absolute;
     right: 10px;
     top:10px;
+}
+
+.product_user_url{
+    color: whitesmoke;
+    font-size: small;
+}
+
+.product_user_url:hover{
+    color: orange;
 }

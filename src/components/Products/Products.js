@@ -2,17 +2,17 @@ import "./Products.css";
 import ShoeData from "../../shoes.json";
 import { useState } from "react";
 import { ProductPage } from "../ProductPage/ProductPage";
-import { GrFormView } from "react-icons/gr";
 
 export const Products = () => {
   const [currentShoe, setCurrentShoe] = useState(ShoeData.results[0]);
   const [className, setClassName] = useState("product_popup_off");
   const [isVisible, setIsVisible] = useState("visible");
-  // Test
-//Test Owen
-//Test Naz
+
   return (
+    <div> 
+      
     <div className="products_container">
+      
       <ProductPage
         currentShoe={currentShoe}
         className={className}
@@ -43,6 +43,7 @@ export const Products = () => {
           </div>
         </div>
       ))}
+    </div>
     </div>
   );
 };

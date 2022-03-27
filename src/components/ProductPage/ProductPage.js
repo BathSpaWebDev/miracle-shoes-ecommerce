@@ -8,14 +8,14 @@ export const ProductPage = ({
   setIsVisible,
 }) => {
   return (
-    <div className={className}>
+    <dialog className={className}>
       <div className="product_image_container">
         <img
           className="product_image"
           src={currentShoe.urls.regular}
           alt="shoe pic"
         />
-        <a href={currentShoe.user.portfolio_url}>{currentShoe.user.name}</a>
+        <a className="product_user_url" href={currentShoe.user.portfolio_url}>{currentShoe.user.name}</a>
       </div>
 
       <CgCloseR
@@ -36,12 +36,14 @@ export const ProductPage = ({
         <div className="price_stock_container">
           <p className="single_product_price">Price: £{currentShoe.price}</p>
           <p className="prduct_in_stock">
-            Only {currentShoe.stock} left in stock
+            {currentShoe.stock < 5
+              ? "Low Stock!"
+              : `Only ${currentShoe.stock} left in stock`}
           </p>
         </div>
 
         <button>Buy Now!</button>
       </div>
-    </div>
+    </dialog>
   );
 };
