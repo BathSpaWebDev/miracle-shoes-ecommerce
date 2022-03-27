@@ -1,7 +1,6 @@
 import { FilterType } from "./FilterType";
 import "./SearchBar.css"
 
-
 export const SearchBar = () => {
   return (
     <section>

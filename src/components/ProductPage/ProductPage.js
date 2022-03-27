@@ -15,7 +15,7 @@ export const ProductPage = ({
           src={currentShoe.urls.regular}
           alt="shoe pic"
         />
-        <a href={currentShoe.user.portfolio_url}>{currentShoe.user.name}</a>
+        <a className="product_user_url" href={currentShoe.user.portfolio_url}>{currentShoe.user.name}</a>
       </div>
 
       <CgCloseR

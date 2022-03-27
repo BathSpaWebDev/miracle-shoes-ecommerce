@@ -52,7 +52,7 @@
 }
 .prduct_in_stock{
     color: orange;
-    font-size: x-small;
+    font-size: small;
 }
 .single_product_price {
     font-size: 1.2rem;
@@ -82,4 +82,13 @@
     position: absolute;
     right: 10px;
     top:10px;
+}
+
+.product_user_url{
+    color: whitesmoke;
+    font-size: small;
+}
+
+.product_user_url:hover{
+    color: orange;
 }
