@@ -14,7 +14,7 @@ A front facing e-commerce shoe app built using React, where you can view product
 
 ## Team (Alphabetical)
 - [Andrei Butuc](https://github.com/andreibtc84)
-- [Nazila ]()
+- [Nazila ](https://github.com/nazamini)
 - [Naz H](https://github.com/nazhudha)
 - [Owen ](https://github.com/owenbrannagan)
 
