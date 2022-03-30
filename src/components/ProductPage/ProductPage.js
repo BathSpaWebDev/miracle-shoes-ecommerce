@@ -42,7 +42,7 @@ export const ProductPage = ({
           </p>
         </div>
 
-        <button>Buy Now!</button>
+        
       </div>
     </dialog>
   );
