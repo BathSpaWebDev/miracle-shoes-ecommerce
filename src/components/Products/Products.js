@@ -40,6 +40,7 @@ export const Products = () => {
             >
               View
             </button>
+            <button>Add To Cart</button>
           </div>
         </div>
       ))}
