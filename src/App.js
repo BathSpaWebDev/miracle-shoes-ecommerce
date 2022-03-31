@@ -2,7 +2,7 @@ import "./App.css";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Products } from "./components/Products/Products";
 import { SearchBar } from "./components/FilterSearch/SearchBar";
-import { Cart } from "./components/Cart/Cart";
+
 
 
 function App() {

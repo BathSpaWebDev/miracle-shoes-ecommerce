@@ -14,9 +14,7 @@ export const Products = () => {
     <div> 
       
     <div className="products_container">
-
-    
-      
+ 
       <ProductPage
         currentShoe={currentShoe}
         className={className}

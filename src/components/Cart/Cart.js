@@ -18,8 +18,7 @@ export const Cart = () => {
             Ckeckout
         </button>
     
-            </div>
-            
+            </div>  
     
     )
 }
