@@ -3,11 +3,12 @@
 .searchBar{
   
   margin-top: 10em;
+  margin-left: 8em;
   width: 100%;
   display: flex;
   background-color: white;
   flex-direction: row;
-  justify-content:end;
+  justify-content:space-around;
   align-items: center;
 }
 

@@ -12,13 +12,19 @@ html{
 .visible {
     display:flex;
 }
+
+
 .products_container {
-    display: flex;
+    display: grid;
+
+    grid-template-columns: 0fr 1fr 4fr;
+    
+    height: 100%;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: left;
+    
     padding: 10px;
     margin-top: 10px;
 }

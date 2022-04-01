@@ -1,0 +1,28 @@
+.sidebar{
+    
+    position: fixed;
+    top: 8rem;
+    margin-left: 50rem;
+    height: 70%;
+    width: 100%;
+   border-radius: 10px;
+    box-shadow: 1px 1px 15px grey;
+    
+}
+.items{
+    margin: 5px 10px 20px 5px;
+}
+
+.cart-button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #82aba100;
+    cursor: pointer;
+    margin: 180px 10px 5px 40px;
+}
+ .cart-button:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
